@@ -1,0 +1,31 @@
+body
+{
+    margin: 0;
+  padding: 0;
+  height: 100vh; 
+  background: linear-gradient(45deg, rgb(168, 2, 184), #07ec07);
+  background-attachment: fixed;
+}
+.head
+{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+textarea
+{
+    width: 400px; 
+    height: 100px;
+    padding: 10px; 
+    resize: none; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+.banphim
+{
+    display: grid;
+    grid-template-columns: repeat(,1fr);
+    gap: 10px;
+}
