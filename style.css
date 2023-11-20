@@ -25,21 +25,35 @@ textarea
 }
 .banphim
 {
+    padding-left: 22%;
+    display: grid;
+    grid-template-columns: repeat(10,80px);
+    gap: 10px;
+}
+.banphim2{
+    padding-top: 15px;
     padding-left: 25%;
     display: grid;
     grid-template-columns: repeat(10,80px);
     gap: 10px;
 }
-.phim
-{
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    cursor: pointer;
-    user-select: none;
+.banphim3{
+    padding-top: 15px;
+    padding-left: 31%;
+    display: grid;
+    grid-template-columns: repeat(10,80px);
+    gap: 10px;
 }
+.phim
+    {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+        user-select: none;
+    }
